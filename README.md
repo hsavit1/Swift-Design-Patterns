@@ -9,6 +9,7 @@
 6. The Factory Method Pattern
 7. Abstract Factory Pattern
 8. The Builder Pattern 
+
 # Structural Patterns
 1. The Adapter Pattern
 2. The Bridge Pattern
@@ -16,6 +17,7 @@
 4. The Façade Pattern
 5. The Flyweight Pattern
 6. The Proxy Pattern
+
 # Behavioral Patterns
 1. The Chain of Responsibility Pattern
 2. The Command Pattern
