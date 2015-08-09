@@ -44,7 +44,7 @@ The object template pattern provides the foundation for grouping data values and
 ####How
 The object template pattern uses a class or struct to define a template from which objects are created. When an application component requires an object, it calls on the Swift runtime to create it by specifying the name of the template and any runtime initialization data values that are required to configure the object
     
-    ------
+------
 
 ###The Prototype Pattern
 	
