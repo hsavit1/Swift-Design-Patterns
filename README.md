@@ -2,8 +2,8 @@
 
 # Themes
 - tightly coupled components are the antithesis of design patterns. Two components are tightly coupled when one depends on the inner workings of another, or, put another way, when you can make a change to one component without also updating the other.
-- item
-- item
+- tbc..
+- tbc..
 
 ======
 ======
