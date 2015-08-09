@@ -69,7 +69,7 @@ The object template pattern provides the foundation for grouping data values and
 ####How
 The prototype pattern uses an existing object—rather than a class or struct—to create new objects. This is often referred to as cloning, since the new object is an identical copy of the existing one, including any changes made to the object’s stored properties that have been made since it was created
     
-####Example
+####Your Moment of Zen
 ````
 func copyWithZone(zone: NSZone) -> AnyObject {
     return Sum(first:self.firstValue,
@@ -77,4 +77,79 @@ func copyWithZone(zone: NSZone) -> AnyObject {
         cache: self.resultsCache);
 }
 ````
+
+------
+
+###The Singleton Pattern
+
+####What
+   
+####Why
+
+####How
+    
+####Your Moment of Zen
+
+------
+
+###The Object Pool Pattern
+
+####What
+   
+####Why
+
+####How
+    
+####Your Moment of Zen
+
+------
+
+###Object Pool Variations
+
+####What
+   
+####Why
+
+####How
+    
+####Your Moment of Zen
+
+------
+
+###The Factory Method Pattern
+
+####What
+   
+####Why
+
+####How
+    
+####Your Moment of Zen
+
+------
+
+###Abstract Factory Pattern
+
+####What
+   
+####Why
+
+####How
+    
+####Your Moment of Zen
+
+------
+
+###The Builder Pattern 
+
+####What
+   
+####Why
+
+####How
+    
+####Your Moment of Zen
+
+------
+
     
