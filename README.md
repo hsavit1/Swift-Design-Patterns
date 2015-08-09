@@ -69,6 +69,12 @@ The object template pattern provides the foundation for grouping data values and
 ####How
 The prototype pattern uses an existing object—rather than a class or struct—to create new objects. This is often referred to as cloning, since the new object is an identical copy of the existing one, including any changes made to the object’s stored properties that have been made since it was created
     
-    
-
+####Example
+````
+func copyWithZone(zone: NSZone) -> AnyObject {
+    return Sum(first:self.firstValue,
+		second: self.secondValue,
+        cache: self.resultsCache);
+}
+````
     
