@@ -27,7 +27,7 @@
 6. The Strategy Pattern
 7. The Visitor Pattern
 
-------
+======
 
 ###The Object Template Pattern
 
