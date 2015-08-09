@@ -39,11 +39,15 @@
     
     The object template pattern provides the foundation for grouping data values and the logic that manipulates them together, known as encapsulation. Encapsulation allows an object to present an API to its consumers while hiding the private implementation of that API. This helps prevent the tight coupling of components.
     
+    The object template pattern uses a class or struct to define a template from which objects are created. When an application component requires an object, it calls on the Swift runtime to create it by specifying the name of the template and any runtime initialization data values that are required to configure the object
+    
     ------
 
 ###The Prototype Pattern
 	
     The main benefit is to hide the code that creates objects from the components that use them; this means that components don’t need to know which class or struct is required to create a new object, don’t need to know the details of initializers, and don’t need to change when subclasses are created and instantiated. This pattern can also be used to avoid repeating expensive initialization each time a new object of a specific type is created.
+    
+    The prototype pattern uses an existing object—rather than a class or struct—to create new objects. This is often referred to as cloning, since the new object is an identical copy of the existing one, including any changes made to the object’s stored properties that have been made since it was created
     
     
 
