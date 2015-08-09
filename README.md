@@ -30,6 +30,7 @@
 ------
 
 ###The Object Template Pattern
+
 	#####What?
     The object template pattern uses a class or struct as the specification for the data types and logic for a given data type. Objects are created using the template, and values for the data are set during initialization, either through the use of default values in the template or using values provided by the component to the class or struct initializer, also known as the constructor.
     
