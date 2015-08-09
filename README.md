@@ -1,4 +1,4 @@
-#### All design patterns are based off the book _Pro-Swift-Design-Patterns_
+#### A discourse in design patterns. Based off the wonderful book _Pro-Swift-Design-Patterns_. Go grab a copy
 
 # Themes
 - tightly coupled components are the antithesis of design patterns. Two components are tightly coupled when one depends on the inner workings of another, or, put another way, when you can make a change to one component without also updating the other.
