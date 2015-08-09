@@ -27,14 +27,15 @@
 6. The Strategy Pattern
 7. The Visitor Pattern
 
-	=====
+=====
+
 
 ###The Object Template Pattern
 
-	#####What?
+	####What?
     The object template pattern uses a class or struct as the specification for the data types and logic for a given data type. Objects are created using the template, and values for the data are set during initialization, either through the use of default values in the template or using values provided by the component to the class or struct initializer, also known as the constructor.
     
-    #####Why?
+    ####Why?
     The object template pattern provides the foundation for grouping data values and the logic that manipulates them together, known as encapsulation. Encapsulation allows an object to present an API to its consumers while hiding the private implementation of that API. This helps prevent the tight coupling of components.
     
     ------
