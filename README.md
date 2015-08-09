@@ -95,11 +95,15 @@ func copyWithZone(zone: NSZone) -> AnyObject {
 ###The Object Pool Pattern
 
 ####What
-   
+The object pool pattern manages a collection of reusable objects that are provided to calling components. A component obtains an object from the pool, uses it to perform work, and returns it to the pool so that it can be allocated to satisfy future requests. An object that has been allocated to a caller is not available for use by other components until it has been returned to the pool.
+
 ####Why
+The object pool pattern hides the construction of objects from the components that use them and allows expensive initializations to be amortized through reusing objects repeatedly.
 
 ####How
-    
+The object pool pattern manages a collection of fungible objects, known as the object pool—or just the pool. Components that need an object borrow one from the pool, use it to perform some work, and then return it to the pool when the work has been completed. Returned objects are then used to satisfy subsequent requests, either from the same component or from another component.
+The object pool pattern can be used to manage objects that represent real-world resources and also to amortize expensive initialization procedures by reusing objects to satisfy requests from multiple components.  
+
 ####Your Moment of Zen
 
 ------
